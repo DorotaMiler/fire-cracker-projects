@@ -2,17 +2,23 @@ package com.dm.pizza;
 
 public class Pizza {
 
-     double smallPizzaPrice = 15;
-     double mediumPizzaPrice = 35;
-     double bigPizzaPrice = 50;
-     double diameter;
-     double radius = diameter / 2;
-     double size = Math.PI * Math.pow(radius, 2);
+    final double smallPizzaPrice = 15;
+    final double mediumPizzaPrice = 35;
+    final double bigPizzaPrice = 50;
+    private double radius;
+    double size;
+    double diameter;
 
 
-    public Pizza(double price, double size){
-        pizzaRatio(price,size);
+    public Pizza(double price, double size) {
+        pizzaRatio(price, size);
     }
+
+    public double getPizzaSize(double radius) {
+        return size = Math.PI * Math.pow(radius, 2);
+    }
+
+
     public void pizzaRatio(double price, double size) {
         System.out.println("Pizza's price-size ratio equals: " + getPrice() / size;
     }
