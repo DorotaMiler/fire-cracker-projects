@@ -1,4 +1,4 @@
-package com.infoshareacademy.name;
+package com.dm.name;
 
 
 public class NameApp {
@@ -7,6 +7,8 @@ public class NameApp {
         /*
 
         stwórz metodę, która przyjmuje parametr String (imię) i zwraca wartość logiczną true/false
+
+
 
         ▪ metoda sprawdza, czy w danym parametrze powtarza się jakaś litera
           - jeśli tak, to zwraca true
@@ -18,5 +20,8 @@ public class NameApp {
 
          */
 
+        public boolean (String name){
+
+        }
     }
 }

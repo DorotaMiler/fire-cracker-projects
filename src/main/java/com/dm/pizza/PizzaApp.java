@@ -1,4 +1,4 @@
-package com.infoshareacademy.pizza;
+package com.dm.pizza;
 
 
 public class PizzaApp {
@@ -13,6 +13,19 @@ public class PizzaApp {
         A może pizzę 30 cm za 20 zł?
 
         */
+
+        double price;
+        double diameter;
+        double radius = diameter / 2;
+        double area = Math.PI * Math.pow(radius, 2);
+
+        public double pizzaRatio (double price, double area){
+            System.out.println("");
+        }
+
+        public double pizzasComparison
+                Pizza pizza1 = new Pizza();
+        Pizza pizz2 = new Pizza();
 
     }
 }
