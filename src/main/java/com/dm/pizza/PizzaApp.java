@@ -14,13 +14,11 @@ public class PizzaApp {
 
         */
 
-        public double pizzaRatio (double price, double area){
-            System.out.println("");
+        public double pizzasComparison {
+            Pizza pizza1 = new Pizza();
+
+            Pizza pizza2 = new Pizza();
+
         }
-
-        public double pizzasComparison
-                Pizza pizza1 = new Pizza();
-        Pizza pizz2 = new Pizza();
-
     }
 }

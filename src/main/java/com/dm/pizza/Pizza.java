@@ -7,6 +7,10 @@ public class Pizza {
     private double radius = diameter / 2;
     private double size = Math.PI * Math.pow(radius, 2);
 
+
+    public Pizza(double price, double size){
+        pizzaRatio(price,size);
+    }
     public void pizzaRatio(double price, double size) {
         System.out.println("Pizza's price-size ratio equals: " + getPrice() / getSize());
     }
