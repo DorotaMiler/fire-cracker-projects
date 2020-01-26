@@ -1,4 +1,4 @@
-# Car.java
+# Car app
 > simple app displaying car's features, including Engine class as car's filed
 
 #### *starting with:*
