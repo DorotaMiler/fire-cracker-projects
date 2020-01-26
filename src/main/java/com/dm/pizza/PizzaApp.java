@@ -14,11 +14,6 @@ public class PizzaApp {
 
         */
 
-        double price;
-        double diameter;
-        double radius = diameter / 2;
-        double area = Math.PI * Math.pow(radius, 2);
-
         public double pizzaRatio (double price, double area){
             System.out.println("");
         }
