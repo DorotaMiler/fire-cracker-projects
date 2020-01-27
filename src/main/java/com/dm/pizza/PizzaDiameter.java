@@ -10,7 +10,6 @@ public enum PizzaDiameter {
     PizzaDiameter(int i) {
     }
 
-
     public int PizzaDiameter(int diameter) {
         return diameter;
     }
