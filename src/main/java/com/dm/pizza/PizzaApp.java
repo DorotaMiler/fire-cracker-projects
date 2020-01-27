@@ -21,7 +21,8 @@ public class PizzaApp {
         System.out.println("Hi! Welcome to DM's pizza!" + "\nWhat pizza size would you like to order?" + "\n\n(advise of pizza diameter of choice: small -> 25cm, medium -> 40cm or big -> 50cm)" + "\n.......");
         Scanner scan = new Scanner(System.in);
         double chosenSize = scan.nextDouble();
-        System.out.println("Thank you. You have chosen: "+chosenSize+" size pizza.");
+        System.out.println("Thank you. You have chosen: "+chosenSize+" size pizza."="\n");
+
 
         Pizza pizza1 = new Pizza();
 
