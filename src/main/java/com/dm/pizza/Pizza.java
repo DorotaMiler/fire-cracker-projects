@@ -2,16 +2,21 @@ package com.dm.pizza;
 
 public class Pizza {
 
-    final double smallPizzaPrice = 15;
-    final double mediumPizzaPrice = 35;
-    final double bigPizzaPrice = 50;
-    private double radius;
-    double size;
+    final double SMALL_PRICE = 17;
+    final double MEDIUM_SIZE = 25;
+    final double BIG_SIZE = 33;
+
+    final double SMALL_SIZE = 25;
+    final double MEDIUM_SIZE = 40;
+    final double BIG_SIZE = 50;
+    double radius;
     double diameter;
 
     public Pizza(double price, double size) {
         pizzaRatio(price, size);
     }
+
+    public static smallPizza
 
     public double getPizzaSize(double radius) {
         return size = Math.PI * Math.pow(radius, 2);

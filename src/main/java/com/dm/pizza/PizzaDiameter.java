@@ -8,7 +8,7 @@ public class enum PizzaDiameter {
     int diameter;
 
 
-    private PizzaDiameter(int getDiameter){
-        diameter = getDiameter
+    public int PizzaDiameter(int diameter){
+        return diameter;
     }
 }
