@@ -2,14 +2,17 @@ package com.dm.pizza;
 
 public class Pizza {
 
+    private PizzaPrice price;
+    private PizzaDiameter diameter;
+    private PizzaSize size;
     double radius;
-    double diameter;
 
-    public Pizza(double price, double size) {
-        pizzaRatio(price, size);
+    public Pizza(PizzaPrice price, PizzaDiameter diameter) {
+        this.price = price;
+        this.diameter = diameter;
     }
 
-    smallPizza()
+    smallPizza(double size)
 
     public double getPizzaSize(double radius) {
         return size = Math.PI * Math.pow(radius, 2);
