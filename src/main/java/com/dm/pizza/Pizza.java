@@ -5,7 +5,6 @@ public class Pizza {
     private PizzaPrice price;
     private PizzaDiameter diameter;
     private PizzaSize size;
-    double radius;
 
     public Pizza(PizzaPrice price, PizzaDiameter diameter) {
         this.price = price;
@@ -26,15 +25,20 @@ public class Pizza {
         System.out.println("Pizza's price-size ratio equals: " + getPrice() / size;
     }
 
-    public double getDiameter() {
+
+    public PizzaSize getSize() {
+        return size;
+    }
+
+    public PizzaDiameter getDiameter() {
         return diameter;
     }
 
-    public double getPrice() {
+    public PizzaPrice getPrice() {
         return price;
     }
 
     public double getRadius() {
-        return radius;
+        return radius= diameter/2;
     }
 }

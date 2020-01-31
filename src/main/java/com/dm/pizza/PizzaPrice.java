@@ -1,7 +1,7 @@
 package com.dm.pizza;
 
 public class PizzaPrice {
-    SMALL_PRICE(17),
+    SMALL_PRICE(20),
     MEDIUM_PRICE(25),
     BIG_PRICE(33);
 
