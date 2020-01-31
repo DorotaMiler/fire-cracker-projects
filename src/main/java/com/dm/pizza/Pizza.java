@@ -11,7 +11,6 @@ public class Pizza {
         this.diameter = diameter;
     }
 
-    smallPizza(double size)
 
 //    public PizzaSize getSize() {
 //        return size = Math.PI * Math.pow(radius, 2);

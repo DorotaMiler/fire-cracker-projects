@@ -6,8 +6,6 @@ public class PizzaPrice {
     BIG_PRICE(33);
 
 
-
-    public PizzaPrice
 //    public double getSMALL_PRICE() {
 //        return SMALL_PRICE;
 //    }
