@@ -8,6 +8,7 @@ public enum PizzaDiameter {
     BIG(50);
 
     private int diameter;
+    private double radius;
 
     public int getDiameter() {
         return diameter;
