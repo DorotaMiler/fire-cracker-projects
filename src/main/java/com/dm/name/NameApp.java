@@ -8,8 +8,6 @@ public class NameApp {
 
         stwórz metodę, która przyjmuje parametr String (imię) i zwraca wartość logiczną true/false
 
-
-
         ▪ metoda sprawdza, czy w danym parametrze powtarza się jakaś litera
           - jeśli tak, to zwraca true
           - jeśli nie, to zwraca false

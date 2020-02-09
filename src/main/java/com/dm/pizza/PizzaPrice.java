@@ -1,12 +1,20 @@
 package com.dm.pizza;
 
-public class PizzaPrice {
-    SMALL_PRICE(20),
-    MEDIUM_PRICE(25),
-    BIG_PRICE(33);
+public enum PizzaPrice {
+    SMALL(20),
+    MEDIUM(25),
+    BIG(33);
 
+    private int price;
 
-//    public double getSMALL_PRICE() {
+    public int getPrice() {
+        return price;
+    }
+    private PizzaPrice(final int price) {
+        this.price = price;
+    }
+
+    //    public double getSMALL_PRICE() {
 //        return SMALL_PRICE;
 //    }
 //

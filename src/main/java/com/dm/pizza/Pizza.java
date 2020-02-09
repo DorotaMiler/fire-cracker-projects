@@ -16,12 +16,12 @@ public class Pizza {
 //        return size = Math.PI * Math.pow(radius, 2);
 //    }
 //
-//    public double ge (double radius) {
-//        return size;
-//    }
 
-    public void pizzaRatio(double price, double size) {
-        System.out.println("Pizza's price-size ratio equals: " + getPrice() / size;
+    public void pizzaRatio(Pizza pizza) {
+        int size = pizza.getSize();
+        double price = pizza.getPrice();
+        double ratio = size/price;
+        System.out.println("Pizza's price-size ratio equals: "
     }
 
 
