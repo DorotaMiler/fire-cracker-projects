@@ -10,24 +10,24 @@ public class Pizza {
         this.price = price;
     }
 
-    public Pizza(PizzaDiameter diameter){
-        this.diameter=diameter;
+    public Pizza(PizzaDiameter diameter) {
+        this.diameter = diameter;
     }
 
-    public Pizza(PizzaSize size){
-        this.size=size;
+    public Pizza(PizzaSize size) {
+        this.size = size;
     }
-    
+
 //    public PizzaSize getSize() {
 //        return size = Math.PI * Math.pow(radius, 2);
 //    }
 //
 
     public void pizzaRatio(Pizza pizza) {
-         size = pizza.getSize();
-         price = pizza.getPrice();
-         double ratio = size/price;
-        System.out.println("Pizza's price-size ratio equals: "+ratio);
+        size = pizza.getSize();
+        price = pizza.getPrice();
+        double ratio = size / price;
+        System.out.println("Pizza's price-size ratio equals: " + ratio);
     }
 
     public PizzaSize getSize() {
