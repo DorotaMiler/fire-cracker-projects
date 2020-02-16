@@ -7,7 +7,10 @@ public enum PizzaPrice {
 
     private int price;
 
-    public int getPrice() {
+    public int getPrice(PizzaDiameter pizzaDiameter) {
+        if(pizzaDiameter.getDiameter(20)){
+            return
+        }
         return price;
     }
     private PizzaPrice(final int price) {

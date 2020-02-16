@@ -4,7 +4,7 @@ public class PizzaSize {
 
     private double size;
 
-    public double pizzaSize(int pizzaDiameter){
+    public double pizzaSize(PizzaDiameter pizzaDiameter){
         int diameter = pizzaDiameter.getDiameter();
         double radius = (double)diameter/2;
         return size = Math.PI * Math.pow(radius, 2);
