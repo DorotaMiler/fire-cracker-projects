@@ -26,7 +26,9 @@ public class Pizza {
     public void pizzaRatio(Pizza pizza) {
         size = pizza.getSize();
         price = pizza.getPrice();
-        double ratio = size / price;
+        double ratio = (double) size /price;
+
+        
         System.out.println("Pizza's price-size ratio equals: " + ratio);
     }
 
