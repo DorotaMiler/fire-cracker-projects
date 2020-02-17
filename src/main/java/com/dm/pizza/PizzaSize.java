@@ -1,20 +1,31 @@
 package com.dm.pizza;
 
-public class PizzaSize {
+public enum PizzaSize {
 
-    private double size;
+    SMALL {
+        public double calculateSize() {
+            int diameter = PizzaDiameter.SMALL.getDiameter();
+            double radius = (double) diameter / 2;
+            double size;
+            return size = Math.PI * Math.pow(radius, 2);
+        }
+    },
+    MEDIUM {
+        public double calculateSize() {
+            int diameter = PizzaDiameter.MEDIUM.getDiameter();
+            double radius = (double) diameter / 2;
+            double size;
+            return size = Math.PI * Math.pow(radius, 2);
+        }
+    },
+    BIG {
+        public double calculateSize() {
+            int diameter = PizzaDiameter.BIG.getDiameter();
+            double radius = (double) diameter / 2;
+            double size;
+            return size = Math.PI * Math.pow(radius, 2);
+        }
+    };
 
-    public double pizzaSize(PizzaDiameter pizzaDiameter){
-        int diameter = pizzaDiameter.getDiameter();
-        double radius = (double)diameter/2;
-        return size = Math.PI * Math.pow(radius, 2);
-    }
-
-    public void printSize(int diameter){
-        System.out.println("Pizza's size is: "+pizzaSize(diameter);
-    }
-
-    public double getSize() {
-        return size;
-    }
+    public abstract double calculateSize();
 }

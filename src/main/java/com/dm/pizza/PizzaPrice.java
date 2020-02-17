@@ -7,25 +7,23 @@ public enum PizzaPrice {
 
     private int price;
 
-    public int getPrice(PizzaDiameter pizzaDiameter) {
-        if(pizzaDiameter.getDiameter(20)){
-            return
-        }
-        return price;
-    }
-    private PizzaPrice(final int price) {
+    PizzaPrice(final int price) {
         this.price = price;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
     //    public double getSMALL_PRICE() {
-//        return SMALL_PRICE;
-//    }
-//
-//    public double getMEDIUM_PRICE() {
-//        return MEDIUM_PRICE;
-//    }
-//
-//    public double getBIG_PRICE() {
-//        return BIG_PRICE;
-//    }
+    //        return SMALL_PRICE;
+    //    }
+    //
+    //    public double getMEDIUM_PRICE() {
+    //        return MEDIUM_PRICE;
+    //    }
+    //
+    //    public double getBIG_PRICE() {
+    //        return BIG_PRICE;
+    //    }
 }

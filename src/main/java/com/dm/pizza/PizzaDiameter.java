@@ -2,13 +2,13 @@ package com.dm.pizza;
 
 public enum PizzaDiameter {
 
-    SMALL(20),
+    SMALL(30),
     MEDIUM(40),
     BIG(50);
 
     private int diameter;
 
-    PizzaDiameter(int diameter) {
+    public PizzaDiameter(int diameter) {
         this.diameter = diameter;
     }
 
