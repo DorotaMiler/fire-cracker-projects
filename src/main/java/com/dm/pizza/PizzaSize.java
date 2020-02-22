@@ -28,4 +28,21 @@ public enum PizzaSize {
     };
 
     public abstract double calculateSize();
+
+    public double ratioBasedOnChoice(PizzaSize size) {
+        // size to price
+        if (size == PizzaSize.SMALL) {
+            return pizzaRatio(PizzaSize.SMALL, PizzaPrice.SMALL);
+        } else if (size == PizzaSize.MEDIUM) {
+            return pizzaRatio(PizzaSize.MEDIUM, PizzaPrice.MEDIUM);
+        } else (size == PizzaSize.BIG) {
+            return pizzaRatio(PizzaSize.BIG, PizzaPrice.BIG);
+        }
+    }
+
+    public double pizzaRatio(PizzaSize size, PizzaPrice price) {
+        double ratio;
+        return ratio = size.calculateSize() / price.getPrice();
+    }
+
 }

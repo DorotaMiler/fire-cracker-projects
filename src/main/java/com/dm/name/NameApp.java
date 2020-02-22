@@ -1,6 +1,8 @@
 package com.dm.name;
 
 
+import java.util.Scanner;
+
 public class NameApp {
     public static void main(String[] args) {
 
@@ -21,5 +23,12 @@ public class NameApp {
         public boolean (String name){
 
         }
+
+       public String scannerName(){
+            Scanner scan = new Scanner(System.in);
+            String name = scan.nextLine();
+            return name;
+        }
+
     }
 }
