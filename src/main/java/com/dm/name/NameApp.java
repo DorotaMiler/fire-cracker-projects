@@ -21,6 +21,8 @@ public class NameApp {
          */
 
         public boolean (String name){
+            if
+
 
         }
 
