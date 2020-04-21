@@ -6,6 +6,7 @@ public class Pizza {
     private PizzaDiameter diameter;
     private PizzaSize size;
 
+
     public Pizza() {
     }
 
